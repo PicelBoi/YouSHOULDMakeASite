@@ -1,0 +1,66 @@
+/*
+You SHOULD Make A Site
+by PicelBoi
+
+This code is commented to help newcomers to understand
+CSS structure and how I write CSS stylesheets.
+This is added if you're someone who learns via examples!
+
+You don't necessarily have to treat this as the be all end all of HTML structure,
+feel free to experiment!
+
+This isn't that big since this site's quite simple, so it's not that much of a good example, is it?
+
+-- Licensing Stuff -- 
+The contents of this site and the code are licensed under different
+licenses.
+
+The contents of this site (You SHOULD Make a Site) is licensed
+under the Creative Commons Attribution-ShareAlike 4.0 International
+license (https://creativecommons.org/licenses/by-sa/4.0/).
+
+The code (structure, code, HTML) is licensed under the MIT license.
+
+Licenses are included at the end of this page.
+*/
+
+html {
+  /*
+^ This modifies the look of the html tag element. Refer to the HTML file for more info. 
+*/
+  background-color: #f2f3f4;
+  /* 
+  ^ This sets the background color of the html element to #f2f3f4, aka
+  anti-flash white.
+  For more information, check out
+  https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/background-color.
+  */
+  font-family: Arial, Helvetica, sans-serif;
+  /* 
+  ^ This sets the font family to Arial.
+  The fonts are in order, so it goes from:
+  1. Arial
+  2. Helvetica
+  3. The default sans-serif font on your computer
+
+  It goes down this list if it cannot find the font specified.
+  For more information, check out
+  https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font-family.
+  */
+}
+
+header {
+  /*
+^ This modifies the look of the header tag element. Refer to the HTML file for more info. 
+*/
+  text-align: center;
+  /* 
+  ^ This sets the text alignment to the center.
+  Works for centering text, but if you're looking for stuff
+  that's positioned using the block positioning scheme, use
+  margin: auto (may not work 100% of the time!)
+
+  For more information, check out
+  https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/text-align.
+  */
+}
